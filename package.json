@@ -1,0 +1,19 @@
+{
+  "name": "urlessrouterdemo",
+  "version": "1.0.0",
+  "description": "Demo of the URLessRouter library",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js --watch | webpack-dev-server --open"
+  },
+  "author": "Matthew Kerster",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "urlessrouter": "^0.2.1"
+  }
+}
